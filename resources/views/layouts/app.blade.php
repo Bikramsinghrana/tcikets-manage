@@ -319,6 +319,9 @@
     <!-- Toast Container -->
     <div class="toast-container" id="toastContainer"></div>
     
+    <!-- AI Chatbot -->
+    @include('components.chatbot')
+    
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     
