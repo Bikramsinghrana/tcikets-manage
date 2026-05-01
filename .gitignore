@@ -2,7 +2,28 @@
 /storage/framework/cache/
 /storage/framework/sessions/
 /storage/logs/
-/storage/app/public/attachments
-.env
+
+# Ignore all files in attachments
+/storage/app/public/attachments/*
+
+# Keep folders
+!/storage/app/public/attachments/*/
+
+# Ignore files inside subfolders
+/storage/app/public/attachments/**/*
+
+# Allow only .gitkeep
+!/storage/app/public/attachments/**/.gitkeep
+
+
+# Node & NPM
 /node_modules
+npm-debug.log
+yarn-error.log
+
+# Keep lock files (DO NOT ignore)
+# package-lock.json
+# yarn.lock
+
+.env
 /vendor
