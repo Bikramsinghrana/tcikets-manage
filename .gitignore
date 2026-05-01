@@ -2,6 +2,7 @@
 /storage/framework/cache/
 /storage/framework/sessions/
 /storage/logs/
+/storage/app/
 .env
 /node_modules
 /vendor
